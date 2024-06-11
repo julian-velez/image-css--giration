@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+    border-radius: 10% / 145%;
+    animation: julian 0.5s  infinite;
+    transition: 0.5s;
+}
+
+ img:hover {
+    /* transform: scale(-1.2); */
+    transform: rotate(360deg);
+} 
+
+/* @keyframes julian  {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-187deg);
+    }
+} */
